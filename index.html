@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>LZ Lyrics | Sing With Confidence</title>
+  </head>
+  <body>
+    <header class="header container" id="header">
+      <div class="name">LZ Lyrics</div>
+
+      <div class="pill-toggle">
+        <input type="checkbox" name="toggle" id="toggle" class="toggle" />
+        <label for="toggle">
+          <div class="ball"></div>
+        </label>
+      </div>
+
+      <form class="form" id="form">
+        <input
+          id="search"
+          type="text"
+          placeholder="Search for a song or artist"
+        />
+        <button type="submit" class="button">Search</button>
+      </form>
+    </header>
+
+    <div class="songs container" id="search-results">
+      <!-- <div class="lyric-container">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+          laborum quisquam! Numquam laboriosam fuga sapiente, officia doloribus
+          ipsum quasi eos!
+        </p>
+      </div> -->
+      <!-- <div class="info-container">
+        <div class="cover-art">
+          <img src="./events-hero.jpg" alt="" />
+        </div>
+        <p
+          class="song-title"
+          style="
+            text-align: center;
+            font-family: Raleway;
+            font-size: 1.5rem;
+            text-transform: lowercase;
+          "
+        >
+          Song title
+        </p>
+        <p style="text-align: center; margin-top: 0.2rem">Artist Name</p>
+        <div class="other-info">
+          <p class="album-name">Album name: Album name</p>
+          <p class="duration">Duration: Minutes</p>
+          <p class="explicit no">Explicit Lyrics: YES</p>
+        </div>
+      </div> -->
+
+      <!-- <div class="card">
+        <div class="album-art">
+          <img src="./events-hero.jpg" alt="" />
+        </div>
+        <div class="info">
+          <p>Title: song name</p>
+          <p>Artist: artist name</p>
+          <p>Album: album name name</p>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="btn-group" id="pagination"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
