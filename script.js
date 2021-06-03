@@ -91,7 +91,7 @@ async function getLyrics(artist, title) {
           >
             ${songInfo.title}
           </p>
-          <p style="text-align: center; margin-top: 0.2rem">Artist Name</p>
+          <p style="text-align: center; margin-top: 0.2rem">${songInfo.artist.name}</p>
           <div class="other-info">
             <p class="album-name">Album name - ${songInfo.album.title}</p>
             <p class="duration">Duration - ${(
