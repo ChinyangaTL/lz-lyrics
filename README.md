@@ -30,7 +30,7 @@ The attempt was to build a fairly primitive but functional music lyric app to tr
 ### Links
 
 - GitHub Repo: [https://github.com/ChinyangaTL/lz-lyrics](https://github.com/ChinyangaTL/lz-lyrics)
-- Live Site URL: [https://www.chinyangatl/githubio/lz-lyrics](https://www.chinyangatl/githubio/lz-lyrics)
+- Live Site URL: [https://www.chinyangatl/github.io/lz-lyrics](https://www.chinyangatl/github.io/lz-lyrics)
 
 ## My process
 
